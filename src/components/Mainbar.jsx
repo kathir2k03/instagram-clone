@@ -1,9 +1,16 @@
+import Feeds from "./Feeds"
+import Stories from "./Stories"
 
 function Mainbar(){
 
     return(
         <>
-        <h1>Feed</h1>
+        <div>
+            <Stories/>
+        </div>
+        <div>
+            <Feeds/>
+        </div>
         </>
     )
 }
