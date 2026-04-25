@@ -2,7 +2,7 @@
 function Sidebar(){
 
     return(
-        <section className="sidebar font-normal text-lg">
+        <section className="sidebar fixed font-normal text-lg">
 
         {/* logo */}
 

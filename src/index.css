@@ -1,15 +1,22 @@
 .bi{
     padding-right:6px;
     -webkit-text-stroke: 0.3px black;
-
 }
 
-.sidebar{
-   user-select: none;
+.sidebar,
+.feed-section,
+.story-section
+{
+  user-select: none;
 }
-
 .sidebar div{
     margin: 16px 0;
     /* border: 1px solid red; */
     cursor: pointer;
+}
+
+.story-section{
+    height: 75px;
+    display: flex;
+    align-items: center;
 }
