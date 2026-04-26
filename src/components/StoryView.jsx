@@ -33,7 +33,7 @@ const StoryView = () =>{
                 </div> 
                              
             <div className="relative flex justify-center">
-                <img className="w-auto z-5 h-[100vh]" src={story.image} alt="" />
+                <img className="w-auto object-contain object z-5 h-[100vh]" src={story.image} alt="" />
                 <div className="absolute inset-0 bg-black/100 rounded"></div>
             </div>
         </section>
