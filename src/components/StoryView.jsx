@@ -4,7 +4,7 @@ import useFetch from "../hooks/useFetch"
 const StoryView = () =>{
     const navigate = useNavigate()
     const {id} = useParams()
-    const [story, error, loading] = useFetch(`http://localhost:3000/storyLists/${id}`) 
+    const [story, error, loading] = useFetch(`https://instagram-clone-backend-64c5.onrender.com/storyLists/${id}`) 
     if(loading){
         return(
             <></>

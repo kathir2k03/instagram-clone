@@ -2,8 +2,8 @@
 import useFetch from "../hooks/useFetch"
 
 function Rightbar() {
-    const [switchProfileData, switchProfileError, switchProfileLoading] = useFetch('http://localhost:3000/switchProfile')
-    const [suggestionsData, suggestionsError, suggestionsLoading] =useFetch('http://localhost:3000/suggestions')    
+    const [switchProfileData, switchProfileError, switchProfileLoading] = useFetch('https://instagram-clone-backend-64c5.onrender.com/switchProfile')
+    const [suggestionsData, suggestionsError, suggestionsLoading] =useFetch('https://instagram-clone-backend-64c5.onrender.com/suggestions')    
     if(suggestionsLoading || switchProfileLoading){
         return(
             <>Loading...</>

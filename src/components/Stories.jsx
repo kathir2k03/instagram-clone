@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 
 const Stories = () =>{
     const navigate = useNavigate()
-     const [data, error, loading] = useFetch('http://localhost:3000/storyLists')
+     const [data, error, loading] = useFetch('https://instagram-clone-backend-64c5.onrender.com/storyLists')
      if(loading){
         return(
             <></>

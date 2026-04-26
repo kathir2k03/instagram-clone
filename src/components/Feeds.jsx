@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import useFetch from "../hooks/useFetch"
 
 const Feeds = () =>{
-    const [data, error, loading] = useFetch('http://localhost:3000/posts')
+    const [data, error, loading] = useFetch('https://instagram-clone-backend-64c5.onrender.com/posts')
     const posts = data || []
 
 if(loading){
