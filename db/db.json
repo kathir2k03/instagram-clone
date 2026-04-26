@@ -4,10 +4,10 @@
       "id": 1,
       "user": {
         "id": 101,
-        "username": "john_doe",
-        "profile_pic": "https://randomuser.me/api/portraits/men/1.jpg"
+        "username": "royal_challengers_bengaluru",
+        "profile_pic": "/public/teams/rcb.jpg"
       },
-      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60",
+      "image" : "/public/posts/rcb.jpg",
       "caption": "Beautiful sunset 🌇 #nature",
       "likes": 120,
       "comments": [
@@ -26,15 +26,15 @@
       "id": 2,
       "user": {
         "id": 102,
-        "username": "emma_smith",
-        "profile_pic": "https://randomuser.me/api/portraits/women/2.jpg"
+        "username": "mumbai_indians",
+        "profile_pic": "/public/teams/mi.jpg"
       },
-      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=60",
+       "image" : "/public/posts/mi.jpg",
       "caption": "Coffee time ☕ #morningvibes",
       "likes": 89,
       "comments": [
         {
-          "user": "john_doe",
+          "user": "royal_challengers_bengaluru",
           "comment": "Looks tasty!"
         }
       ],
@@ -44,19 +44,19 @@
       "id": 3,
       "user": {
         "id": 103,
-        "username": "travel_guru",
-        "profile_pic": "https://randomuser.me/api/portraits/men/3.jpg"
+        "username": "chennai_super_kings",
+        "profile_pic": "/public/teams/csk.jpeg"
       },
-      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60",
+      "image" : "/public/posts/csk.webp",
       "caption": "Exploring the mountains 🏔️",
       "likes": 230,
       "comments": [
         {
-          "user": "emma_smith",
+          "user": "mumbai_indians",
           "comment": "So peaceful 😍"
         },
         {
-          "user": "john_doe",
+          "user": "royal_challengers_bengaluru",
           "comment": "I want to go there!"
         }
       ],
@@ -66,10 +66,10 @@
       "id": 4,
       "user": {
         "id": 104,
-        "username": "foodie_king",
-        "profile_pic": "https://randomuser.me/api/portraits/men/4.jpg"
+        "username": "delhi_capitals",
+        "profile_pic": "/public/teams/dc.jpg"
       },
-      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=60",
+      "image" : "/public/posts/dc.jpg",
       "caption": "Delicious burger 🍔",
       "likes": 150,
       "comments": [
@@ -84,10 +84,10 @@
       "id": 5,
       "user": {
         "id": 105,
-        "username": "fitness_pro",
-        "profile_pic": "https://randomuser.me/api/portraits/women/5.jpg"
+        "username": "punjab_kings",
+        "profile_pic": "/public/teams/pbks.png"
       },
-      "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=800&q=60",
+      "image" : "/public/posts/pbks.jpg",
       "caption": "Workout done 💪",
       "likes": 310,
       "comments": [
@@ -96,7 +96,7 @@
           "comment": "Motivation 🔥"
         },
         {
-          "user": "emma_smith",
+          "user": "mumbai_indians",
           "comment": "Great job!"
         }
       ],
@@ -106,19 +106,19 @@
       "id": 6,
       "user": {
         "id": 106,
-        "username": "tech_master",
-        "profile_pic": "https://randomuser.me/api/portraits/men/6.jpg"
+        "username": "gujarat_titans",
+        "profile_pic": "/public/teams/gt.webp"
       },
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "image" : "/public/posts/gt.jpg",
       "caption": "Late night coding 💻🔥 #developerlife",
       "likes": 175,
       "comments": [
         {
-          "user": "john_doe",
+          "user": "royal_challengers_bengaluru",
           "comment": "Respect bro 👏"
         },
         {
-          "user": "emma_smith",
+          "user": "mumbai_indians",
           "comment": "Keep grinding!"
         }
       ],
@@ -128,15 +128,15 @@
       "id": 7,
       "user": {
         "id": 107,
-        "username": "wanderlust_soul",
-        "profile_pic": "https://randomuser.me/api/portraits/women/7.jpg"
+        "username": "rajasthan_royals",
+        "profile_pic": "/public/teams/rr.png"
       },
-      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+      "image" : "/public/posts/rr.webp",
       "caption": "Lost in the woods 🌲✨",
       "likes": 210,
       "comments": [
         {
-          "user": "travel_guru",
+          "user": "chennai_super_kings",
           "comment": "Nature at its best!"
         }
       ],
@@ -146,15 +146,15 @@
       "id": 8,
       "user": {
         "id": 108,
-        "username": "chef_special",
-        "profile_pic": "https://randomuser.me/api/portraits/men/8.jpg"
+        "username": "sunrisers_hyderabad ",
+        "profile_pic": "/public/teams/srh.jpg"
       },
-      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352",
+      "image" : "/public/posts/srh.jpg",
       "caption": "Homemade pasta 🍝❤️",
       "likes": 134,
       "comments": [
         {
-          "user": "foodie_king",
+          "user": "delhi_capitals",
           "comment": "Looks delicious!"
         },
         {
@@ -168,15 +168,15 @@
       "id": 9,
       "user": {
         "id": 109,
-        "username": "fit_life",
-        "profile_pic": "https://randomuser.me/api/portraits/men/9.jpg"
+        "username": "lucknow_super_giants",
+        "profile_pic": "/public/teams/lsg.jpg"
       },
-      "image": "https://images.unsplash.com/photo-1554284126-aa88f22d8b74",
+     "image" : "/public/posts/lsg.jpg",
       "caption": "Morning run 🏃‍♂️ #fitness",
       "likes": 190,
       "comments": [
         {
-          "user": "fitness_pro",
+          "user": "punjab_kings",
           "comment": "Consistency is key!"
         }
       ],
@@ -186,19 +186,146 @@
       "id": 10,
       "user": {
         "id": 110,
-        "username": "music_vibes",
-        "profile_pic": "https://randomuser.me/api/portraits/women/10.jpg"
+        "username": "kolkata_knight_riders",
+        "profile_pic": "/public/teams/kkr.jpg"
       },
-      "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d",
+      "image" : "/public/posts/kkr.jpg",
       "caption": "Feel the music 🎧🎶",
       "likes": 220,
       "comments": [
         {
-          "user": "emma_smith",
+          "user": "mumbai_indians",
           "comment": "My favorite song!"
         }
       ],
       "timestamp": "2025-02-20T19:55:00Z"
     }    
+  ],
+
+  "switchProfile": [
+     {
+        "id": 102,
+        "username": "mumbai_indians",
+        "profile_pic": "/public/teams/mi.jpg"
+      }
+  ],
+  "suggestions": [
+    {
+        "id": 102,
+        "username": "mumbai_indians",
+        "profile_pic": "/public/teams/mi.jpg"
+      },    
+    {
+        "id": 103,
+        "username": "chennai_super_kings",
+        "profile_pic": "/public/teams/csk.jpeg"
+      },
+      {
+        "id": 104,
+        "username": "delhi_capitals",
+        "profile_pic": "/public/teams/dc.jpg"
+      },
+     {
+        "id": 105,
+        "username": "punjab_kings",
+        "profile_pic": "/public/teams/pbks.png"
+      },
+      {
+        "id": 106,
+        "username": "gujarat_titans",
+        "profile_pic": "/public/teams/gt.webp"
+      },
+      {
+        "id": 107,
+        "username": "rajasthan_royals",
+        "profile_pic": "/public/teams/rr.png"
+      },
+    {
+        "id": 108,
+        "username": "sunrisers_hyderabad ",
+        "profile_pic": "/public/teams/srh.jpg"
+      },
+    {
+        "id": 109,
+        "username": "lucknow_super_giants",
+        "profile_pic": "/public/teams/lsg.jpg"
+      },
+     {
+        "id": 110,
+        "username": "kolkata_knight_riders",
+        "profile_pic": "/public/teams/kkr.jpg"
+      }
+  ],
+  "storyLists": [
+        {
+        "id": 101,
+        "username": "royal_challengers_bengaluru",
+        "profile_pic": "/public/teams/rcb.jpg",
+        "image" : "/public/posts/rcb.jpg",
+         "timestamp": "2025-02-12T09:15:00Z"
+      }, 
+    {
+        "id": 102,
+        "username": "mumbai_indians",
+        "profile_pic": "/public/teams/mi.jpg",
+        "image" : "/public/posts/mi.jpg",
+         "timestamp": "2025-02-12T09:15:00Z"
+      },    
+    {
+        "id": 103,
+        "username": "chennai_super_kings",
+        "profile_pic": "/public/teams/csk.jpeg",
+        "image" : "/public/posts/csk.webp",
+         "timestamp": "2025-02-12T09:15:00Z"
+      },
+      {
+        "id": 104,
+        "username": "delhi_capitals",
+        "profile_pic": "/public/teams/dc.jpg",
+        "image" : "/public/posts/dc.jpg",
+         "timestamp": "2025-02-12T09:15:00Z"
+      },
+     {
+        "id": 105,
+        "username": "punjab_kings",
+        "profile_pic": "/public/teams/pbks.png",
+        "image" : "/public/posts/pbks.jpg",
+         "timestamp": "2025-02-12T09:15:00Z"
+      },
+      {
+        "id": 106,
+        "username": "gujarat_titans",
+        "profile_pic": "/public/teams/gt.webp",
+        "image" : "/public/posts/gt.jpg",
+         "timestamp": "2025-02-12T09:15:00Z"
+      },
+      {
+        "id": 107,
+        "username": "rajasthan_royals",
+        "profile_pic": "/public/teams/rr.png",
+        "image" : "/public/posts/rr.webp",
+         "timestamp": "2025-02-12T09:15:00Z"
+      },
+    {
+        "id": 108,
+        "username": "sunrisers_hyderabad ",
+        "profile_pic": "/public/teams/srh.jpg",
+        "image" : "/public/posts/srh.jpg",
+         "timestamp": "2025-02-12T09:15:00Z"
+      },
+    {
+        "id": 109,
+        "username": "lucknow_super_giants",
+        "profile_pic": "/public/teams/lsg.jpg",
+        "image" : "/public/posts/lsg.jpg",
+         "timestamp": "2025-02-12T09:15:00Z"
+      },
+     {
+        "id": 110,
+        "username": "kolkata_knight_riders",
+        "profile_pic": "/public/teams/kkr.jpg",
+        "image" : "/public/posts/kkr.jpg",
+         "timestamp": "2025-02-12T09:15:00Z"
+      }
   ]
 }

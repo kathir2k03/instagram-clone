@@ -11,37 +11,37 @@ function Sidebar(){
         {/* menu-list */}
 
         <div>
-            <i class="bi bi-house"></i> Home
+            <i className="bi bi-house"></i> Home
         </div>
         <div>
-            <i class="bi bi-search"></i> Search
+            <i className="bi bi-search"></i> Search
         </div>
         <div>
-            <i class="bi bi-compass"></i> Explore
+            <i className="bi bi-compass"></i> Explore
         </div>
         <div>
-            <i class="bi bi-play-btn"></i> Reels
+            <i className="bi bi-play-btn"></i> Reels
         </div>
         <div>
-            <i class="bi bi-chat-dots"></i> Messages
+            <i className="bi bi-chat-dots"></i> Messages
         </div>
         <div>
-            <i class="bi bi-heart"></i> Notifications
+            <i className="bi bi-heart"></i> Notifications
         </div>
         <div>
-            <i class="bi bi-plus-square"></i> Create
+            <i className="bi bi-plus-square"></i> Create
         </div>
         <div>
-            <i class="bi bi-person-circle"></i> Profile
+            <i className="bi bi-person-circle"></i> Profile
         </div>
 
          {/* bottom-section */}
         <div className="fixed bottom-0 mb-2">
         <div>
-            <i class="bi bi-threads"></i> Threads
+            <i className="bi bi-threads"></i> Threads
         </div>
         <div>
-            <i class="bi bi-list"></i> More
+            <i className="bi bi-list"></i> More
         </div>
         </div>
 

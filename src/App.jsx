@@ -1,26 +1,33 @@
 
+import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import './App.css'
 import Mainbar from './components/Mainbar'
 import Rightbar from './components/Rightbar'
 import Sidebar from './components/Sidebar'
+import StoryView from './components/StoryView'
+import PageNotFound from './components/PageNotFound'
+import Main from './components/Main'
 
 function App() {
-
-
+const route = createBrowserRouter(
+  [
+    {
+     path : "/",
+     element : <Main/>
+    },
+    {
+      path : `/story/:id`,
+      element : <StoryView/>
+    },
+    {
+      path : '/*',
+      element : <PageNotFound/>
+    }
+  ]
+)
   return (
     <>
-    <section className='flex w-full '>
-    <div className='w-1/5 px-3 py-4'>
-    <Sidebar/>
-    </div>
-    <div className='w-1/2'>
-    <Mainbar/>
-    </div>
-    <div className='w-1/4 px-3 py-4'>
-    <Rightbar/>
-    </div>
-
-    </section>
+    <RouterProvider router={route} />
     </>
   )
 }
